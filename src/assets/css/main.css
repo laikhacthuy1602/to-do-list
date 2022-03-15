@@ -1,0 +1,45 @@
+.w-50 {
+  width: 60%;
+}
+.w-100 {
+  width: 100%;
+}
+.p-2 {
+  padding: 8px;
+}
+.mr-1 {
+  margin-right: 4px;
+}
+.mb-1 {
+  margin-bottom: 4px;
+}
+.mb-2 {
+  margin-bottom: 8px;
+}
+.mb-3 {
+  margin-bottom: 16px;
+}
+.fz-2 {
+  font-size: 16px;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.border-1 {
+  border: 1px solid #ccc;
+}
+.border-bottom__none {
+  border-bottom: none;
+}
+.mt-2 {
+  margin-top: 8px;
+}
+.mt-3 {
+  margin-top: 12px;
+}
+.mt-4 {
+  margin-top: 16px;
+}
+.text-center {
+  text-align: center;
+}
