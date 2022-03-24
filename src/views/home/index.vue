@@ -392,7 +392,7 @@ export default {
   async created() {
     try {
       const res = await API.getUser('/test');
-      console.log(res);
+      console.log(res?.cookie);
     } catch (error) {
       console.log(error);
     }

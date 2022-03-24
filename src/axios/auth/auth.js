@@ -1,6 +1,7 @@
 import API from '../common';
 
 const resource = '/auth';
+// const resource2 = '';
 
 export default {
   login(url, data) {
@@ -17,9 +18,11 @@ export default {
   },
   getUser(url) {
     return API.get(
-      `${resource + url}`,
+      `${url}`,
       {
-        headers: { 'Access-Control-Allow-Origin': '*', withCredentials: true },
+        headers: {
+          withCredentials: true,
+        },
       },
     );
   },

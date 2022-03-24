@@ -7,9 +7,6 @@ export default {
     return API.post(
       `${resource + url}`,
       data,
-      {
-        headers: `Bearer ${localStorage.getItem('token')}`,
-      },
     );
   },
 };
