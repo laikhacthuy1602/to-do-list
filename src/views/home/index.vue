@@ -395,6 +395,7 @@ export default {
       console.log(res?.cookie);
     } catch (error) {
       console.log(error);
+      console.log(error);
     }
   },
   methods: {
