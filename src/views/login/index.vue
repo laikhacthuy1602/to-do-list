@@ -76,7 +76,6 @@ export default {
           const response = await API.login('/login', dataLogin);
           if (response.data) {
             console.log(response);
-            console.log(response);
             this.$store.dispatch('setUser', response.data.user);
             this.$router.push({ name: 'Home' });
           }
